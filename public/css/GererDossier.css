@@ -1,0 +1,183 @@
+ legend {
+                width: auto;
+                margin-left: 20px;
+                font-size: 22px;
+                color: #2f4f4f;
+                font-weight: bolder;
+
+                font-weight: normal;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+
+            }
+
+
+
+
+
+            fieldset {
+                border: 10px solid rgba(0, 0, 0, 0.3);
+                border-radius: 20px;
+                margin-bottom: 30px;
+
+
+
+            }
+
+
+            h1 {
+                color: #2f4f4f;
+
+                font-weight: normal;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-size: 36px;
+                line-height: 42px;
+                text-transform: uppercase;
+                text-shadow: 0 3px white, 0 3px #777;
+                text-align: center;
+
+            }
+
+
+
+
+
+            .table {
+                border: 1px solid black;
+                width: auto;
+                position: relative;
+            }
+
+            .table td {
+                height: 10px;
+                border: #2f4f4f 1px solid;
+                border-radius: 20px;
+            }
+
+            .table input {
+                width: 100px;
+                border: 3px solid #2f4f4f;
+                height: 5px;
+                border-radius: 20px;
+                font-size: 10px;
+                color: black;
+                margin: auto;
+                position: relative;
+                top: 0;
+
+                text-align: justify;
+
+            }
+
+            .styled-table {
+                border-collapse: collapse;
+                font-size: 0.9em;
+                font-family: sans-serif;
+                min-width: 400px;
+                box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+                margin-left: 35%;
+
+
+
+
+            }
+
+            .styled-table thead tr {
+                background-color: #2f4f4f;
+                color: #ffffff;
+                text-align: center;
+            }
+
+            .styled-table th,
+            .styled-table td {
+                padding: 12px 15px;
+                text-align: center;
+            }
+
+            .styled-table tbody tr {
+                border-bottom: 1px solid #2f4f4f;
+            }
+
+            .styled-table tbody tr:nth-of-type(even) {
+                background-color: #f3f3f3;
+            }
+
+            .styled-table tbody tr:last-of-type {
+                border-bottom: 2px solid #2f4f4f;
+            }
+
+            .styled-table tbody tr.active-row {
+                font-weight: bold;
+                color: #009879;
+            }
+
+            .styled-table input {
+                color: black;
+                border: #000 2px solid;
+                width: 150px;
+                height: 30px;
+                padding: 5px 5px 5px 5px;
+                font-size: 15px;
+                border-radius: 20px;
+            }
+
+            .list li {
+                display: inline;
+                margin: auto;
+                max-width: 160px;
+
+            }
+
+            .input100 {
+                width: 19%;
+                display: inline-block;
+                box-shadow: 2px 2px 5px #2f4f4f;
+                margin-bottom: 20px;
+                outline: none;
+                max-width: 19%;
+
+            }
+
+
+            label {
+                font-size: 16px;
+
+                font-weight: bolder;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                margin-left: 20px;
+                width: 200px;
+            }
+
+
+            .login100-form-btn {
+                font-family: Montserrat-Bold;
+                font-size: 15px;
+                line-height: 1.5;
+                color: #fff;
+                text-transform: uppercase;
+                width: 40%;
+                margin-left: 30%;
+                height: 50px;
+                border-radius: 25px;
+                background: #2f4f4f;
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -moz-box;
+                display: -ms-flexbox;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 0 25px;
+
+                -webkit-transition: all 0.4s;
+                -o-transition: all 0.4s;
+                -moz-transition: all 0.4s;
+                transition: all 0.4s;
+            }
+
+            .login100-form-btn:hover {
+                background: #fff;
+                color: #2f4f4f;
+                border: solid 1px #2f4f4f;
+            }
